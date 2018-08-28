@@ -4,5 +4,5 @@
 	$db = 'heroku_a5a5c56bf5174f4';
 
 	$conn = mysqli_connect('us-cdbr-iron-east-01.cleardb.net', $user, $pass, $db) ;
-	//$conn->set_charset("utf8");
+	$conn->set_charset("utf8");
 ?>
