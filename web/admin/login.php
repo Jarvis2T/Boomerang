@@ -38,7 +38,7 @@
 	<div class="pagecover">
 	 	<div class="login row">
 	 		<div class="logo col-md-5">
-	 			<img class="img-responsive" src="../../image/logo.jpg">
+	 			<img class="img-responsive" src="../image/logo.jpg">
 	 		</div>
 	 		<div class="info col-md-7">
 				<h3>Đăng nhập</h3>

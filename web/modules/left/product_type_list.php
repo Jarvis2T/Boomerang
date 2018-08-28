@@ -9,7 +9,7 @@
 ?>
 
 <div class="logo panel panel-default">
-	<a href="#"><img class="img-responsive" src="../image/logo.jpg"></a>
+	<a href="#"><img class="img-responsive" src="image/logo.jpg"></a>
 </div>
 <div class="menu_left panel panel-default">
 	<h2>DANH MỤC SẢN PHẨM</h2>
