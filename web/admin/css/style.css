@@ -1,0 +1,194 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.row{
+	margin:0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+.pagecover{
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	min-height: 100%;
+	background: url("../../../image/cover.jpg") no-repeat fixed;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+}
+
+.container-fluid {
+	height: auto;
+	margin: auto;
+}
+
+.login{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	text-align: center;
+	margin: auto;
+	background: #e8e8e8;
+	border-radius: 0.5em;
+	width: 40%;
+}
+
+.login .form_inline{
+	margin: auto;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.login .inline{
+	margin: auto;
+	width: 90%;
+}
+
+.login .logo{
+	padding: 25px;
+}
+
+.login i{
+	padding-right: 10px;
+}
+
+.login button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.login p{
+	margin: 0;
+}
+
+.header {
+	text-align: center;
+	background: #36377A;
+}
+
+.header h1 {
+	margin: 10px;
+	color: #fff;
+}
+
+.search_row{
+	padding: 12px;
+	text-align: center;
+}
+
+.search_head{
+	text-align: center;
+}
+
+.search .btn{
+	margin-bottom: 2px; 
+}
+
+.menu {
+	background: #1D1D1D;
+	font-size: 18px;
+}
+
+.menu .col-md-7{
+	padding: 0;
+}
+
+.menu input{
+	line-height: normal;
+	background:inherit;
+	border:none;
+	height: 25px;
+}
+
+.menu input:focus{
+	outline: none;
+}
+
+
+.content .content_wrap{
+	min-height: 494px;
+	margin: 10px 0px 10px 0px;
+	background: #e8e8e8;
+}
+
+.content h3{
+	text-align: center;
+	font-size: 23px;
+}
+
+
+.content label{
+	font-size: 17px;
+}
+
+.content .add,.content .edit{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin:auto;
+	width: 70%;
+}
+
+.table{
+	margin-top: 10px;
+}
+
+.table th, td{
+	text-align: center;
+}
+.order h3 {
+	text-align: center;
+	font-size: 23px;
+}
+.order .table{
+	margin-top: 30px;
+}
+
+.footer {
+	text-align: center;
+	font-size: 18px;
+	background: #1D1D1D;
+}
+
+.footer p{
+	margin:10px;
+	color: #9E9E9E;
+}
+
+.page.row{
+	text-align: center;
+}
+
+.pages_divider .pagination{
+	margin-top: 10px;
+}
+
+.pagination .pre.btn{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.pagination .next.btn{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.pagination .btn.disabled{
+	opacity: 1
+}
+
+.pages_divider .active{
+	z-index: 3;
+    color: #e8e8e8;
+    background: #3d92a5;
+    border-color: #3d92a5;
+    border: 1px solid
+}
