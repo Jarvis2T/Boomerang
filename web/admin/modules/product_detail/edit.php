@@ -49,7 +49,7 @@
         <div class="form-group">
         	<label>Hình ảnh</label>
         	<input type="file" name="product_img"><br>
-            <img src="modules/product_detail/uploads/<?php echo $row['img_pddetail'] ?>" width=60px height=60px>
+            <img src="https://s3.amazonaws.com/boomeranggiftshop/<?php echo $row['img_pddetail'] ?>" width=60px height=60px>
         	<p class="help-block">Chọn hình ảnh sản phẩm.</p>
         </div>
 
