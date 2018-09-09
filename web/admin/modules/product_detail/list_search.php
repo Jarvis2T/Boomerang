@@ -65,7 +65,7 @@
 					<td><?php echo $row['code_pddetail'] ?></td>
 					<td><?php echo $row['name_pddetail'] ?></td>
 					<td><?php echo $row['name_pdtype'] ?></td>
-					<td><img src="modules/product_detail/uploads/<?php echo $row['img_pddetail'] ?>" width=80px height=80px></td>
+					<td><img src="https://s3.amazonaws.com/boomeranggiftshop/<?php echo $row['img_pddetail'] ?>" width=80px height=80px></td>
 					<td><?php echo $row['material_pddetail'] ?></td>
 					<td><?php echo $row['size_pddetail'] ?></td>
 					<td><?php echo $row['ability_pddetail'] ?></td>

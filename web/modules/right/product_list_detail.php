@@ -10,7 +10,7 @@
 	</div>
 	<div class="product_detail row">
 		<div class="col-md-6">
-			<img src="admin/modules/product_detail/uploads/<?php echo $row['img_pddetail'] ?>" class="img-responsive">
+			<img src="https://s3.amazonaws.com/boomeranggiftshop/<?php echo $row['img_pddetail'] ?>" class="img-responsive">
 		</div>
 		<div class="col-md-6">
 			<h1><?php echo $row['name_pddetail'] ?></h1>

@@ -52,7 +52,7 @@
 			<div class="col-md-3">
 				<div class="thumbnail">
 					<a href="index.php?p=product_list_detail&id=<?php echo $row['id_pddetail'] ?>">
-						<img src="admin/modules/product_detail/uploads/<?php echo $row['img_pddetail'] ?>">
+						<img src="https://s3.amazonaws.com/boomeranggiftshop/<?php echo $row['img_pddetail'] ?>">
 						<div class="caption">
 					    	<h3><?php echo $row['name_pddetail'] ?></h3>							 
 					    	<p class="label label-primary"><?php echo number_format($row['price_pddetail'],0,'','.') ?> VND</p>
