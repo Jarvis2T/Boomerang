@@ -20,15 +20,15 @@
 	$IAM_KEY = $_ENV["AWS_ACCESS_KEY_ID"];
 	$IAM_SECRET = $_ENV["AWS_SECRET_ACCESS_KEY"];
 	//move_uploaded_file($product_img_tmp, 'uploads/'.$product_img);
-	$s3 = S3Client::factory(
-	    	array(
-	        	'credentials' => array(
+	$s3 = new S3Client(
+	    	[
+	        	'credentials' => [
 	            'key' => $IAM_KEY,
 	            'secret' => $IAM_SECRET
-	        	),
+	        	],
 	        'version' => 'latest',
 	        'region' => 'us-east-1'
-	   		)    
+	   		]    
 		);
 
 	if (isset($_POST['add'])) {

@@ -9,19 +9,19 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="item active">
-				<img alt="First slide" src="../image/banner_1.jpg">
+				<img alt="First slide" src="image/banner_1.jpg">
 			</div>
 			<div class="item">
-				<img alt="Second slide" src="../image/banner_2.jpg">
+				<img alt="Second slide" src="image/banner_2.jpg">
 			</div>
 			<div class="item">
-				<img alt="Third slide" src="../image/banner_3.jpg">
+				<img alt="Third slide" src="image/banner_3.jpg">
 			</div>
 			<div class="item">
-				<img alt="Fourth slide" src="../image/banner_4.jpg">
+				<img alt="Fourth slide" src="image/banner_4.jpg">
 			</div>
 			<div class="item">
-				<img alt="Fifth slide" src="../image/banner_5.jpg">
+				<img alt="Fifth slide" src="image/banner_5.jpg">
 			</div>
 		</div>
 		<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
